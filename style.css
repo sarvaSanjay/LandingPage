@@ -1,0 +1,27 @@
+body {
+    font-family: sans-serif;
+}
+.hero{
+    display: flex;
+    flex-direction: column;
+    padding-left: 15%;
+    padding-right: 15%;
+    background-color: #1F2937;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    color: #F9FAF8;
+    font-size: 24px;
+    align-items: center;
+}
+
+ul{
+    list-style-type: none;
+    display: flex;
+    margin: 0px;
+    gap: 18px;
+    color: #E5E7EB;
+    font-size: 18px;
+}
