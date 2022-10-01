@@ -75,3 +75,44 @@ ul{
     color: #E5E7EB;
     font-size: 18px;
 }
+
+.information {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    padding: 36px;
+}
+
+.main-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 48px;
+}
+
+.info {
+    /*width: 12%;
+    height: 200px;*/
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.info-img {
+    height: 150px;
+    width: 150px;
+    border: solid 5px #3882f6;
+    border-radius: 10px;
+}
+
+.info-subtext {
+    text-align: center;
+    color: gray;
+}
