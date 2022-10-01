@@ -148,3 +148,40 @@ ul{
     font-weight: bold;
     font-size: 18px;
 }
+
+.action-body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 8%;
+    padding-top: 8%;
+}
+
+.action-main {
+    display: flex;
+    background-color: #3882f6;
+    padding: 2%;
+    border-radius: 15px;
+    width: 50%;
+    justify-content: space-around;
+}
+
+.action-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 8px;
+    color: #F9FAF8;
+}
+
+.action-heading {
+    font-weight: bold;
+}
+
+.action-subtext {
+    color: #d8dadd;
+}
+
+.action-main button {
+    border: solid 2px #F9FAF8;
+}
